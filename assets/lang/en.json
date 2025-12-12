@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "getQuote": "Get Quote"
+  },
+  "hero": {
+    "badge": "Innovative Software Solutions",
+    "title1": "Transforming Your Ideas",
+    "title2": "Into Digital",
+    "title3": "Reality",
+    "description": "Istanbul Online is your trusted technology partner in digital transformation. We develop web applications, mobile solutions, and enterprise software that drive business growth.",
+    "ctaPrimary": "View Our Projects",
+    "ctaSecondary": "Contact Us",
+    "stats": {
+      "projects": "Projects Completed",
+      "clients": "Happy Clients",
+      "experience": "Years Experience"
+    }
+  },
+  "about": {
+    "label": "About Us",
+    "title1": "Building The Future",
+    "title2": "With Technology",
+    "description": "Istanbul Online has been developing innovative software solutions for healthcare, finance, and e-commerce sectors since 2019. With our experienced team, we digitize our clients' business processes and provide competitive advantage.",
+    "features": {
+      "architecture": {
+        "title": "Modern Architecture",
+        "description": "Scalable and secure infrastructure with cutting-edge technologies"
+      },
+      "security": {
+        "title": "Security Focused",
+        "description": "GDPR compliant systems with end-to-end encryption"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Our expert technical team is always by your side"
+      }
+    },
+    "experience": "Years Experience"
+  },
+  "projects": {
+    "label": "Our Projects",
+    "title1": "Successful Projects",
+    "title2": "We've Built",
+    "subtitle": "Some of the projects we have delivered across different industries",
+    "items": {
+      "doctorio": {
+        "title": "Doctor Portfolio Website",
+        "category": "Personal Website",
+        "description": "Professionally designed custom portfolio websites for doctors. Modern design, easy management panel and patient contact forms."
+      },
+      "banausta": {
+        "title": "banausta",
+        "category": "Service Platform",
+        "description": "Digital platform connecting craftsmen and customers. Easy access to plumbers, electricians, painters and more service providers."
+      }
+    },
+    "viewProject": "View Project"
+  },
+  "services": {
+    "label": "Our Services",
+    "title1": "Solutions",
+    "title2": "We Offer",
+    "subtitle": "We develop custom software solutions tailored to your business needs",
+    "items": {
+      "web": {
+        "title": "Web Applications",
+        "description": "Modern and responsive web applications. High-performance solutions with React, Vue.js and Next.js."
+      },
+      "mobile": {
+        "title": "Mobile Applications",
+        "description": "Native and cross-platform mobile apps for iOS and Android. Development with React Native and Flutter."
+      },
+      "enterprise": {
+        "title": "Enterprise Software",
+        "description": "ERP, CRM and custom business process solutions. Scalable and secure infrastructure."
+      },
+      "api": {
+        "title": "API Development",
+        "description": "RESTful and GraphQL API design. Third-party integrations and microservice architecture."
+      },
+      "cloud": {
+        "title": "Cloud Solutions",
+        "description": "Infrastructure setup, management and optimization on AWS, Azure and Google Cloud."
+      },
+      "consulting": {
+        "title": "Technology Consulting",
+        "description": "Digital transformation strategy, technology selection and project management consulting."
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title1": "What Our Clients",
+    "title2": "Say About Us",
+    "items": [
+      {
+        "text": "Doctor.io made our clinic management incredibly easy. Istanbul Online team is professional and solution-oriented.",
+        "author": "Dr. Ahmet Ozkan",
+        "role": "Cardiologist"
+      },
+      {
+        "text": "They delivered our e-commerce project on time and within budget. They are also very fast in technical support.",
+        "author": "Elif Yildiz",
+        "role": "E-Commerce Manager"
+      },
+      {
+        "text": "Thanks to Bana Usta platform, our business doubled. They did an amazing job.",
+        "author": "Murat Kaya",
+        "role": "Service Provider"
+      }
+    ]
+  },
+  "cta": {
+    "title1": "Ready to Bring Your",
+    "title2": "Project to Life?",
+    "description": "We're here to listen to your ideas and offer you the best solution. Contact us now for a free consultation.",
+    "ctaPrimary": "Free Consultation",
+    "ctaSecondary": "Call Us"
+  },
+  "contact": {
+    "label": "Contact",
+    "title1": "Get In",
+    "title2": "Touch With Us",
+    "description": "Reach out to discuss your project or ask your questions. We'll get back to you as soon as possible.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter your phone number",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select",
+      "subjectOptions": {
+        "project": "New Project",
+        "quote": "Quote Request",
+        "support": "Technical Support",
+        "partnership": "Partnership",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project",
+      "submit": "Send Message"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "addressValue": "Levent, Istanbul, Turkey"
+    }
+  },
+  "footer": {
+    "description": "Leading digital transformation of businesses with innovative software solutions.",
+    "products": {
+      "title": "Projects",
+      "items": ["Doctor Portfolio Website", "banausta", "Custom Software"]
+    },
+    "company": {
+      "title": "Company",
+      "items": ["About Us", "Careers", "Blog", "Press"]
+    },
+    "support": {
+      "title": "Support",
+      "items": ["Help Center", "Documentation", "API", "Contact"]
+    },
+    "legal": {
+      "title": "Legal",
+      "items": ["Privacy Policy", "Terms of Use", "GDPR", "Cookie Policy"]
+    },
+    "copyright": "Istanbul Online. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "scrollDown": "Explore"
+  }
+}
