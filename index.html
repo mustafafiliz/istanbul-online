@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,34 +17,10 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <!-- Cursor Glow Effect -->
-    <div class="cursor-glow" id="cursorGlow"></div>
-
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
       <div class="nav-container">
         <a href="#" class="logo">
-          <span class="logo-icon">
-            <svg
-              viewBox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="20"
-                cy="20"
-                r="18"
-                stroke="currentColor"
-                stroke-width="2"
-              />
-              <path
-                d="M12 20h16M20 12v16"
-                stroke="currentColor"
-                stroke-width="2.5"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
           <span class="logo-text"
             >Istanbul<span class="accent">Online</span></span
           >
@@ -103,20 +79,13 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-      <div class="hero-bg">
-        <div class="gradient-orb orb-1"></div>
-        <div class="gradient-orb orb-2"></div>
-        <div class="gradient-orb orb-3"></div>
-        <div class="grid-pattern"></div>
-      </div>
-
       <div class="hero-container">
         <div class="hero-content">
-          <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+          <h1 class="hero-title">
             <span class="title-line" data-i18n="hero.title1"
               >Fikirlerinizi</span
             >
-            <span class="title-line gradient-text" data-i18n="hero.title2"
+            <span class="title-line" data-i18n="hero.title2"
               >Dijital Gerçekliğe</span
             >
             <span class="title-line" data-i18n="hero.title3"
@@ -124,31 +93,53 @@
             >
           </h1>
 
-          <p
-            class="hero-description"
-            data-animate="fade-up"
-            data-delay="200"
-            data-i18n="hero.description"
-          >
+          <p class="hero-description" data-i18n="hero.description">
             İstanbul Online olarak, işletmelerin dijital dönüşüm yolculuğunda
             güvenilir teknoloji ortağıyız. Web uygulamaları, mobil çözümler ve
             kurumsal yazılımlar geliştiriyoruz.
           </p>
-        </div>
-        <div class="hero-visual-right"></div>
-      </div>
 
-      <div class="scroll-indicator" data-animate="fade-up" data-delay="500">
-        <span data-i18n="common.scrollDown">Keşfet</span>
-        <div class="scroll-arrow">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path d="M12 5v14M5 12l7 7 7-7" />
-          </svg>
+          <div class="hero-actions">
+            <a href="#contact" class="cta-button primary">
+              <span data-i18n="hero.cta1">İletişime Geçin</span>
+            </a>
+            <a href="#projects" class="cta-button ghost">
+              <span data-i18n="hero.cta2">Projelerimiz</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-graphic">
+          <div class="graphic-container">
+            <!-- Animated circles -->
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+            <!-- Code brackets -->
+            <svg
+              class="code-symbol symbol-1"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <polyline points="16 18 22 12 16 6" />
+            </svg>
+            <svg
+              class="code-symbol symbol-2"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+            <!-- Floating dots -->
+            <div class="dot dot-1"></div>
+            <div class="dot dot-2"></div>
+            <div class="dot dot-3"></div>
+            <div class="dot dot-4"></div>
+          </div>
         </div>
       </div>
     </section>
@@ -157,31 +148,21 @@
     <section class="about" id="about">
       <div class="about-container">
         <div class="about-content">
-          <div class="section-label" data-animate="fade-up">
-            <span class="label-line"></span>
-            <span data-i18n="about.label">Hakkımızda</span>
-          </div>
-
-          <h2 class="section-title" data-animate="fade-up" data-delay="100">
+          <h2 class="section-title">
             <span data-i18n="about.title1">Teknoloji ile</span><br />
             <span class="gradient-text" data-i18n="about.title2"
               >Geleceği İnşa Ediyoruz</span
             >
           </h2>
 
-          <p
-            class="section-description"
-            data-animate="fade-up"
-            data-delay="200"
-            data-i18n="about.description"
-          >
+          <p class="section-description" data-i18n="about.description">
             İstanbul Online, 2019'dan bu yana sağlık, finans ve e-ticaret
             sektörlerinde yenilikçi yazılım çözümleri geliştiren bir teknoloji
             şirketidir. Deneyimli ekibimizle müşterilerimizin iş süreçlerini
             dijitalleştiriyor, rekabet avantajı sağlıyoruz.
           </p>
 
-          <div class="about-features" data-animate="fade-up" data-delay="300">
+          <div class="about-features">
             <div class="about-feature">
               <div class="feature-icon">
                 <svg
@@ -248,10 +229,8 @@
           </div>
         </div>
 
-        <div class="about-visual" data-animate="fade-right" data-delay="200">
+        <div class="about-visual">
           <div class="about-image">
-            <div class="image-decoration dec-1"></div>
-            <div class="image-decoration dec-2"></div>
             <div class="image-content">
               <div class="tech-stack">
                 <div class="tech-item">
@@ -315,42 +294,33 @@
     <section class="projects" id="projects">
       <div class="projects-container">
         <div class="section-header">
-          <div class="section-label" data-animate="fade-up">
-            <span class="label-line"></span>
-            <span data-i18n="projects.label">Projelerimiz</span>
-          </div>
-          <h2 class="section-title" data-animate="fade-up" data-delay="100">
+          <h2 class="section-title">
             <span data-i18n="projects.title1">Geliştirdiğimiz</span><br />
             <span class="gradient-text" data-i18n="projects.title2"
               >Başarılı Projeler</span
             >
           </h2>
-          <p
-            class="section-subtitle"
-            data-animate="fade-up"
-            data-delay="200"
-            data-i18n="projects.subtitle"
-          >
+          <p class="section-subtitle" data-i18n="projects.subtitle">
             Farklı sektörlerde hayata geçirdiğimiz projelerden bazıları
           </p>
         </div>
 
         <div class="projects-grid">
           <!-- Doktor Tanıtım Websitesi -->
-          <div class="project-card" data-animate="fade-up" data-delay="100">
+          <div class="project-card">
             <div class="project-image">
-              <div class="project-mockup doctorio">
-                <div class="mockup-screen">
-                  <div class="mockup-header-bar"></div>
-                  <div class="mockup-content-area">
-                    <div class="mockup-sidebar-mini"></div>
-                    <div class="mockup-main-area">
-                      <div class="mockup-card-mini"></div>
-                      <div class="mockup-card-mini"></div>
-                      <div class="mockup-chart-mini"></div>
-                    </div>
-                  </div>
-                </div>
+              <div class="project-placeholder">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+                <span>Doktor Portfolio</span>
               </div>
             </div>
             <div class="project-info">
@@ -373,23 +343,20 @@
                 websiteleri. Modern tasarım, kolay yönetim paneli ve hasta
                 iletişim formları.
               </p>
-              <a href="#" class="project-link">
+              <a
+                href="https://kadriyeufukelgin.com.tr"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
                 <span data-i18n="projects.viewProject">Projeyi İncele</span>
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
               </a>
             </div>
           </div>
 
           <!-- banausta -->
-          <div class="project-card" data-animate="fade-up" data-delay="200">
-            <div class="project-image">
+          <div class="project-card">
+            <div class="project-image banausta-bg">
               <a
                 href="https://banausta.com"
                 target="_blank"
@@ -397,25 +364,10 @@
                 class="project-image-link"
               >
                 <img
-                  src="https://banausta.com/og-image.png"
+                  src="assets/img/banausta.png"
                   alt="banausta - İstediğiniz usta elinizin altında"
                   class="project-screenshot"
-                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                 />
-                <div class="project-mockup banausta" style="display: none">
-                  <div class="mockup-screen">
-                    <div class="mockup-header-bar"></div>
-                    <div class="mockup-content-area">
-                      <div class="mockup-search-bar"></div>
-                      <div class="mockup-grid-items">
-                        <div class="mockup-item"></div>
-                        <div class="mockup-item"></div>
-                        <div class="mockup-item"></div>
-                        <div class="mockup-item"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </a>
             </div>
             <div class="project-info">
@@ -445,14 +397,6 @@
                 class="project-link"
               >
                 <span data-i18n="projects.viewProject">Projeyi İncele</span>
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
               </a>
             </div>
           </div>
@@ -464,29 +408,19 @@
     <section class="services" id="services">
       <div class="services-container">
         <div class="section-header">
-          <div class="section-label" data-animate="fade-up">
-            <span class="label-line"></span>
-            <span data-i18n="services.label">Hizmetlerimiz</span>
-          </div>
-          <h2 class="section-title" data-animate="fade-up" data-delay="100">
+          <h2 class="section-title">
             <span data-i18n="services.title1">Sunduğumuz</span><br />
             <span class="gradient-text" data-i18n="services.title2"
               >Çözümler</span
             >
           </h2>
-          <p
-            class="section-subtitle"
-            data-animate="fade-up"
-            data-delay="200"
-            data-i18n="services.subtitle"
-          >
+          <p class="section-subtitle" data-i18n="services.subtitle">
             İşletmenizin ihtiyaçlarına özel yazılım çözümleri geliştiriyoruz
           </p>
         </div>
 
         <div class="services-grid">
-          <div class="service-card" data-animate="fade-up" data-delay="100">
-            <div class="card-glow"></div>
+          <div class="service-card">
             <div class="service-icon">
               <svg
                 viewBox="0 0 48 48"
@@ -514,8 +448,7 @@
             </p>
           </div>
 
-          <div class="service-card" data-animate="fade-up" data-delay="200">
-            <div class="card-glow"></div>
+          <div class="service-card">
             <div class="service-icon">
               <svg
                 viewBox="0 0 48 48"
@@ -540,8 +473,7 @@
             </p>
           </div>
 
-          <div class="service-card" data-animate="fade-up" data-delay="300">
-            <div class="card-glow"></div>
+          <div class="service-card">
             <div class="service-icon">
               <svg
                 viewBox="0 0 48 48"
@@ -569,8 +501,7 @@
             </p>
           </div>
 
-          <div class="service-card" data-animate="fade-up" data-delay="400">
-            <div class="card-glow"></div>
+          <div class="service-card">
             <div class="service-icon">
               <svg
                 viewBox="0 0 48 48"
@@ -594,8 +525,7 @@
             </p>
           </div>
 
-          <div class="service-card" data-animate="fade-up" data-delay="500">
-            <div class="card-glow"></div>
+          <div class="service-card">
             <div class="service-icon">
               <svg
                 viewBox="0 0 48 48"
@@ -620,8 +550,7 @@
             </p>
           </div>
 
-          <div class="service-card" data-animate="fade-up" data-delay="600">
-            <div class="card-glow"></div>
+          <div class="service-card">
             <div class="service-icon">
               <svg
                 viewBox="0 0 48 48"
@@ -654,12 +583,8 @@
 
     <!-- CTA Section -->
     <section class="cta-section">
-      <div class="cta-bg">
-        <div class="cta-orb orb-1"></div>
-        <div class="cta-orb orb-2"></div>
-      </div>
       <div class="cta-container">
-        <div class="cta-content" data-animate="fade-up">
+        <div class="cta-content">
           <h2 class="cta-title">
             <span data-i18n="cta.title1">Projenizi Hayata</span><br />
             <span class="gradient-text" data-i18n="cta.title2"
@@ -673,14 +598,6 @@
           <div class="cta-buttons">
             <a href="#contact" class="cta-button primary large">
               <span data-i18n="cta.ctaPrimary">Ücretsiz Danışmanlık</span>
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
             </a>
             <a href="tel:+902121234567" class="cta-button ghost large">
               <span data-i18n="cta.ctaSecondary">Bizi Arayın</span>
@@ -694,11 +611,7 @@
     <section class="contact" id="contact">
       <div class="contact-container">
         <div class="contact-grid">
-          <div class="contact-info" data-animate="fade-up">
-            <div class="section-label">
-              <span class="label-line"></span>
-              <span data-i18n="contact.label">İletişim</span>
-            </div>
+          <div class="contact-info">
             <h2 class="section-title">
               <span data-i18n="contact.title1">Bizimle</span><br />
               <span class="gradient-text" data-i18n="contact.title2"
@@ -804,11 +717,7 @@
             </div>
           </div>
 
-          <div
-            class="contact-form-wrapper"
-            data-animate="fade-left"
-            data-delay="200"
-          >
+          <div class="contact-form-wrapper">
             <form class="contact-form" id="contactForm">
               <div class="form-group">
                 <label for="name" data-i18n="contact.form.name">Ad Soyad</label>
@@ -901,14 +810,6 @@
               </div>
               <button type="submit" class="cta-button primary full-width">
                 <span data-i18n="contact.form.submit">Gönder</span>
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
-                </svg>
               </button>
             </form>
           </div>
@@ -922,27 +823,6 @@
         <div class="footer-main">
           <div class="footer-brand">
             <a href="#" class="logo">
-              <span class="logo-icon">
-                <svg
-                  viewBox="0 0 40 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle
-                    cx="20"
-                    cy="20"
-                    r="18"
-                    stroke="currentColor"
-                    stroke-width="2"
-                  />
-                  <path
-                    d="M12 20h16M20 12v16"
-                    stroke="currentColor"
-                    stroke-width="2.5"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </span>
               <span class="logo-text"
                 >Istanbul<span class="accent">Online</span></span
               >
@@ -1031,6 +911,21 @@
               >İstanbul Online. Tüm hakları saklıdır.</span
             >
           </p>
+          <button
+            class="lang-switcher footer-lang"
+            id="footerLangSwitcher"
+            aria-label="Change Language"
+          >
+            <span class="lang-current-footer">TR</span>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M6 9l6 6 6-6" />
+            </svg>
+          </button>
         </div>
       </div>
     </footer>

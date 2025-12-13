@@ -8,17 +8,17 @@
     "getQuote": "Get Quote"
   },
   "hero": {
-    "badge": "Innovative Software Solutions",
+    "tagline": "Software Development Company",
     "title1": "Transforming Your Ideas",
     "title2": "Into Digital",
     "title3": "Reality",
     "description": "Istanbul Online is your trusted technology partner in digital transformation. We develop web applications, mobile solutions, and enterprise software that drive business growth.",
-    "ctaPrimary": "View Our Projects",
-    "ctaSecondary": "Contact Us",
+    "cta1": "Get In Touch",
+    "cta2": "Our Projects",
     "stats": {
       "projects": "Projects Completed",
-      "clients": "Happy Clients",
-      "experience": "Years Experience"
+      "years": "Years Experience",
+      "clients": "Happy Clients"
     }
   },
   "about": {
@@ -52,10 +52,10 @@
         "title": "Doctor Portfolio Website",
         "category": "Personal Website",
         "description": "Professionally designed custom portfolio websites for doctors. Modern design, easy management panel and patient contact forms."
-      },
+    },
       "banausta": {
         "title": "banausta",
-        "category": "Service Platform",
+      "category": "Service Platform",
         "description": "Digital platform connecting craftsmen and customers. Easy access to plumbers, electricians, painters and more service providers."
       }
     },
@@ -70,17 +70,17 @@
       "web": {
         "title": "Web Applications",
         "description": "Modern and responsive web applications. High-performance solutions with React, Vue.js and Next.js."
-      },
+    },
       "mobile": {
-        "title": "Mobile Applications",
+      "title": "Mobile Applications",
         "description": "Native and cross-platform mobile apps for iOS and Android. Development with React Native and Flutter."
       },
       "enterprise": {
         "title": "Enterprise Software",
         "description": "ERP, CRM and custom business process solutions. Scalable and secure infrastructure."
-      },
+    },
       "api": {
-        "title": "API Development",
+      "title": "API Development",
         "description": "RESTful and GraphQL API design. Third-party integrations and microservice architecture."
       },
       "cloud": {
@@ -102,17 +102,17 @@
         "text": "Doctor.io made our clinic management incredibly easy. Istanbul Online team is professional and solution-oriented.",
         "author": "Dr. Ahmet Ozkan",
         "role": "Cardiologist"
-      },
+    },
       {
         "text": "They delivered our e-commerce project on time and within budget. They are also very fast in technical support.",
         "author": "Elif Yildiz",
         "role": "E-Commerce Manager"
-      },
+    },
       {
         "text": "Thanks to Bana Usta platform, our business doubled. They did an amazing job.",
         "author": "Murat Kaya",
         "role": "Service Provider"
-      }
+    }
     ]
   },
   "cta": {

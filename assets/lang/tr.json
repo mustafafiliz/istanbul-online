@@ -8,17 +8,17 @@
     "getQuote": "Teklif Al"
   },
   "hero": {
-    "badge": "Yenilikçi Yazılım Çözümleri",
+    "tagline": "Yazılım Geliştirme Şirketi",
     "title1": "Fikirlerinizi",
     "title2": "Dijital Gerçekliğe",
     "title3": "Dönüştürüyoruz",
     "description": "İstanbul Online olarak, işletmelerin dijital dönüşüm yolculuğunda güvenilir teknoloji ortağıyız. Web uygulamaları, mobil çözümler ve kurumsal yazılımlar geliştiriyoruz.",
-    "ctaPrimary": "Projelerimizi İncele",
-    "ctaSecondary": "Bize Ulaşın",
+    "cta1": "İletişime Geçin",
+    "cta2": "Projelerimiz",
     "stats": {
       "projects": "Tamamlanan Proje",
-      "clients": "Mutlu Müşteri",
-      "experience": "Yıllık Deneyim"
+      "years": "Yıllık Deneyim",
+      "clients": "Mutlu Müşteri"
     }
   },
   "about": {
@@ -52,15 +52,15 @@
         "title": "Doktor Tanıtım Websitesi",
         "category": "Kişisel Web Sitesi",
         "description": "Doktorlar için kişiye özel tasarlanmış profesyonel tanıtım websiteleri. Modern tasarım, kolay yönetim paneli ve hasta iletişim formları."
-      },
+    },
       "banausta": {
         "title": "banausta",
-        "category": "Hizmet Platformu",
+      "category": "Hizmet Platformu",
         "description": "Ustalar ve müşterileri buluşturan dijital platform. Tesisatçı, elektrikçi, boyacı ve daha fazla hizmet sağlayıcıya kolay erişim."
       }
     },
     "viewProject": "Projeyi İncele"
-  },
+    },
   "services": {
     "label": "Hizmetlerimiz",
     "title1": "Sunduğumuz",
@@ -70,19 +70,19 @@
       "web": {
         "title": "Web Uygulamaları",
         "description": "Modern ve responsive web uygulamaları. React, Vue.js ve Next.js ile yüksek performanslı çözümler."
-      },
+    },
       "mobile": {
-        "title": "Mobil Uygulamalar",
+      "title": "Mobil Uygulamalar",
         "description": "iOS ve Android için native ve cross-platform mobil uygulamalar. React Native ve Flutter ile geliştirme."
       },
       "enterprise": {
         "title": "Kurumsal Yazılımlar",
         "description": "ERP, CRM ve özel iş süreçlerine yönelik kurumsal çözümler. Ölçeklenebilir ve güvenli altyapı."
-      },
+    },
       "api": {
-        "title": "API Geliştirme",
+      "title": "API Geliştirme",
         "description": "RESTful ve GraphQL API tasarımı. Üçüncü parti entegrasyonlar ve mikroservis mimarisi."
-      },
+  },
       "cloud": {
         "title": "Bulut Çözümleri",
         "description": "AWS, Azure ve Google Cloud üzerinde altyapı kurulumu, yönetimi ve optimizasyonu."
@@ -102,17 +102,17 @@
         "text": "Doctor.io ile klinik yönetimimiz inanılmaz kolaylaştı. İstanbul Online ekibi profesyonel ve çözüm odaklı çalışıyor.",
         "author": "Dr. Ahmet Özkan",
         "role": "Kardiyoloji Uzmanı"
-      },
+    },
       {
         "text": "E-ticaret projemizi zamanında ve bütçe dahilinde teslim ettiler. Teknik destek konusunda da çok hızlılar.",
         "author": "Elif Yıldız",
         "role": "E-Ticaret Yöneticisi"
-      },
+    },
       {
         "text": "Bana Usta platformu sayesinde işlerimiz iki katına çıktı. Harika bir iş çıkardılar.",
         "author": "Murat Kaya",
         "role": "Hizmet Sağlayıcı"
-      }
+    }
     ]
   },
   "cta": {
