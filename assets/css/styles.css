@@ -5,22 +5,22 @@
 
 /* CSS Custom Properties */
 :root {
-  /* Colors - Professional Dark Theme */
-  --bg-primary: #0f0f12;
-  --bg-secondary: #16161a;
-  --bg-tertiary: #1e1e24;
-  --bg-card: rgba(30, 30, 36, 0.8);
+  /* Colors - Clean Light Theme */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #f1f3f5;
+  --bg-card: #ffffff;
 
-  --text-primary: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --text-tertiary: rgba(255, 255, 255, 0.5);
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a68;
+  --text-tertiary: #6c6c8a;
 
-  --accent-1: #00c896;
-  --accent-2: #0094c8;
+  --accent-1: #0066cc;
+  --accent-2: #0052a3;
 
-  --gradient-1: linear-gradient(135deg, #00c896 0%, #0094c8 100%);
+  --gradient-1: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
 
-  --border-color: rgba(255, 255, 255, 0.1);
+  --border-color: rgba(0, 0, 0, 0.08);
 
   /* Typography */
   --font-display: "Syne", sans-serif;
@@ -165,8 +165,9 @@ ul {
   right: 0;
   z-index: 1000;
   padding: 16px 0;
-  background: rgba(15, 15, 18, 0.95);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
 
@@ -547,10 +548,13 @@ ul {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .about-feature:hover {
   border-color: var(--accent-1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
 .feature-icon {
@@ -652,10 +656,13 @@ ul {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
   overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .project-card:hover {
   border-color: var(--accent-1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 .project-image {
@@ -857,10 +864,13 @@ ul {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .service-card:hover {
   border-color: var(--accent-1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 .card-glow {
@@ -900,7 +910,7 @@ ul {
    ============================================ */
 .cta-section {
   padding: var(--section-padding) 0;
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
 }
 
 .cta-bg {
@@ -1044,6 +1054,7 @@ ul {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
   padding: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .contact-form {
@@ -1095,7 +1106,7 @@ ul {
 .form-group select {
   cursor: pointer;
   appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgba(0,0,0,0.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 12px center;
   background-size: 18px;
@@ -1112,7 +1123,7 @@ ul {
    ============================================ */
 .footer {
   padding: 64px 0 32px;
-  background: var(--bg-primary);
+  background: var(--bg-tertiary);
   border-top: 1px solid var(--border-color);
 }
 
