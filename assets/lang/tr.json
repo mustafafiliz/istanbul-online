@@ -23,24 +23,27 @@
   },
   "about": {
     "label": "Hakkımızda",
-    "title1": "Teknoloji ile",
-    "title2": "Geleceği İnşa Ediyoruz",
-    "description": "İstanbul Online, 2019'dan bu yana sağlık, finans ve e-ticaret sektörlerinde yenilikçi yazılım çözümleri geliştiren bir teknoloji şirketidir. Deneyimli ekibimizle müşterilerimizin iş süreçlerini dijitalleştiriyor, rekabet avantajı sağlıyoruz.",
+    "title1": "Hakkımızda",
+    "title2": "",
+    "description": "İstanbul Online Teknoloji, 2016 yılında kurulmuştur. Güçlü yazılım ve arama motoru optimizasyonu (SEO) kadrosu ile banausta.com ve doktorlariniz.com web ve mobil uygulamalarını başarıyla geliştirmiştir. 2026 yılından itibaren, üçüncü şahıslara yönelik web ve mobil uygulama çözümleri sunmak üzere faaliyetlerini genişletmiş ve bu alanda organize olmuştur.",
     "features": {
-      "architecture": {
-        "title": "Modern Mimari",
-        "description": "En güncel teknolojilerle ölçeklenebilir ve güvenli altyapılar"
+      "personal": {
+        "title": "Kişisel Web Uygulamaları",
+        "description": "Portfolyo siteleri ve kişisel marka web siteleri"
       },
-      "security": {
-        "title": "Güvenlik Odaklı",
-        "description": "KVKK ve GDPR uyumlu, uçtan uca şifreli sistemler"
+      "enterprise": {
+        "title": "Kurumsal Web Uygulamaları",
+        "description": "Kurumsal web siteleri ve e-ticaret platformları"
       },
-      "support": {
-        "title": "7/24 Destek",
-        "description": "Uzman teknik ekibimiz her zaman yanınızda"
+      "mobile": {
+        "title": "Mobil Uygulamalar",
+        "description": "Native iOS ve Android uygulamaları"
+      },
+      "seo": {
+        "title": "SEO Danışmanlığı",
+        "description": "Arama motoru optimizasyonu danışmanlığı"
       }
-    },
-    "experience": "Yıllık Deneyim"
+    }
   },
   "projects": {
     "label": "Projelerimiz",
@@ -48,48 +51,45 @@
     "title2": "Başarılı Projeler",
     "subtitle": "Farklı sektörlerde hayata geçirdiğimiz projelerden bazıları",
     "items": {
-      "doctorio": {
-        "title": "Doktor Tanıtım Websitesi",
-        "category": "Kişisel Web Sitesi",
-        "description": "Doktorlar için kişiye özel tasarlanmış profesyonel tanıtım websiteleri. Modern tasarım, kolay yönetim paneli ve hasta iletişim formları."
-    },
-      "banausta": {
-        "title": "banausta",
-      "category": "Hizmet Platformu",
-        "description": "Ustalar ve müşterileri buluşturan dijital platform. Tesisatçı, elektrikçi, boyacı ve daha fazla hizmet sağlayıcıya kolay erişim."
+      "web": {
+        "title": "Banausta Web",
+        "category": "Web Uygulaması",
+        "description": "Hizmet sağlayıcıları ve müşterileri buluşturan modern web platformu. Responsive tasarım ve kusursuz kullanıcı deneyimi."
+      },
+      "community": {
+        "title": "Banausta Community",
+        "category": "Topluluk Platformu",
+        "description": "Ustaların ve müşterilerin etkileşimde bulunduğu, değerlendirme paylaştığı ve güven inşa ettiği canlı bir topluluk merkezi."
+      },
+      "mobile": {
+        "title": "Banausta Mobil",
+        "category": "Mobil Uygulama",
+        "description": "iOS ve Android için native mobil uygulama. Hareket halindeyken hizmet sağlayıcılarını bulun ve rezervasyon yapın."
       }
     },
     "viewProject": "Projeyi İncele"
-    },
-  "services": {
+  },
+"services": {
     "label": "Hizmetlerimiz",
     "title1": "Sunduğumuz",
     "title2": "Çözümler",
     "subtitle": "İşletmenizin ihtiyaçlarına özel yazılım çözümleri geliştiriyoruz",
     "items": {
-      "web": {
-        "title": "Web Uygulamaları",
-        "description": "Modern ve responsive web uygulamaları. React, Vue.js ve Next.js ile yüksek performanslı çözümler."
-    },
-      "mobile": {
-      "title": "Mobil Uygulamalar",
-        "description": "iOS ve Android için native ve cross-platform mobil uygulamalar. React Native ve Flutter ile geliştirme."
+      "personal": {
+        "title": "Kişisel Web Uygulamaları",
+        "description": "Modern tasarım ve kolay yönetim ile portfolyo siteleri, bloglar ve kişisel marka web siteleri."
       },
       "enterprise": {
-        "title": "Kurumsal Yazılımlar",
-        "description": "ERP, CRM ve özel iş süreçlerine yönelik kurumsal çözümler. Ölçeklenebilir ve güvenli altyapı."
-    },
-      "api": {
-      "title": "API Geliştirme",
-        "description": "RESTful ve GraphQL API tasarımı. Üçüncü parti entegrasyonlar ve mikroservis mimarisi."
-  },
-      "cloud": {
-        "title": "Bulut Çözümleri",
-        "description": "AWS, Azure ve Google Cloud üzerinde altyapı kurulumu, yönetimi ve optimizasyonu."
+        "title": "Kurumsal Web Uygulamaları",
+        "description": "Ölçeklenebilir altyapı ile kurumsal web siteleri, e-ticaret platformları ve özel iş çözümleri."
       },
-      "consulting": {
-        "title": "Teknoloji Danışmanlığı",
-        "description": "Dijital dönüşüm stratejisi, teknoloji seçimi ve proje yönetimi danışmanlığı."
+      "mobile": {
+        "title": "Mobil Uygulamalar",
+        "description": "Kusursuz kullanıcı deneyimi ve sezgisel arayüzler ile native iOS ve Android uygulamaları."
+      },
+      "seo": {
+        "title": "Arama Motoru Optimizasyonu (SEO) Danışmanlığı",
+        "description": "Görünürlüğü artırmak, organik trafik çekmek ve sıralamaları iyileştirmek için SEO danışmanlığı."
       }
     }
   },
@@ -158,7 +158,7 @@
     "description": "Yenilikçi yazılım çözümleri ile işletmelerin dijital dönüşümüne öncülük ediyoruz.",
     "products": {
       "title": "Projeler",
-      "items": ["Doktor Tanıtım Websitesi", "banausta", "Özel Yazılım"]
+      "items": ["Banausta Web", "Banausta Community", "Banausta Mobil"]
     },
     "company": {
       "title": "Şirket",

@@ -23,24 +23,27 @@
   },
   "about": {
     "label": "About Us",
-    "title1": "Building The Future",
-    "title2": "With Technology",
-    "description": "Istanbul Online has been developing innovative software solutions for healthcare, finance, and e-commerce sectors since 2019. With our experienced team, we digitize our clients' business processes and provide competitive advantage.",
+    "title1": "About",
+    "title2": "Us",
+    "description": "Istanbul Online Technology was founded in 2016. With our strong software and SEO team, we have successfully developed banausta.com and doktorlariniz.com web and mobile applications. Since 2026, we have expanded our operations to offer web and mobile application solutions to third parties.",
     "features": {
-      "architecture": {
-        "title": "Modern Architecture",
-        "description": "Scalable and secure infrastructure with cutting-edge technologies"
+      "personal": {
+        "title": "Personal Web Apps",
+        "description": "Portfolio sites and personal brand websites"
       },
-      "security": {
-        "title": "Security Focused",
-        "description": "GDPR compliant systems with end-to-end encryption"
+      "enterprise": {
+        "title": "Enterprise Web Apps",
+        "description": "Corporate websites and e-commerce platforms"
       },
-      "support": {
-        "title": "24/7 Support",
-        "description": "Our expert technical team is always by your side"
+      "mobile": {
+        "title": "Mobile Apps",
+        "description": "Native iOS and Android applications"
+      },
+      "seo": {
+        "title": "SEO Consulting",
+        "description": "Search engine optimization consulting"
       }
-    },
-    "experience": "Years Experience"
+    }
   },
   "projects": {
     "label": "Our Projects",
@@ -48,48 +51,45 @@
     "title2": "We've Built",
     "subtitle": "Some of the projects we have delivered across different industries",
     "items": {
-      "doctorio": {
-        "title": "Doctor Portfolio Website",
-        "category": "Personal Website",
-        "description": "Professionally designed custom portfolio websites for doctors. Modern design, easy management panel and patient contact forms."
-    },
-      "banausta": {
-        "title": "banausta",
-      "category": "Service Platform",
-        "description": "Digital platform connecting craftsmen and customers. Easy access to plumbers, electricians, painters and more service providers."
+      "web": {
+        "title": "Banausta Web",
+        "category": "Web Application",
+        "description": "Modern web platform connecting service providers and customers. Responsive design with seamless user experience."
+      },
+      "community": {
+        "title": "Banausta Community",
+        "category": "Community Platform",
+        "description": "A vibrant community hub where craftsmen and customers interact, share reviews, and build trust."
+      },
+      "mobile": {
+        "title": "Banausta Mobile",
+        "category": "Mobile Application",
+        "description": "Native mobile application for iOS and Android. Find and book service providers on the go."
       }
     },
     "viewProject": "View Project"
   },
-  "services": {
+"services": {
     "label": "Our Services",
     "title1": "Solutions",
     "title2": "We Offer",
     "subtitle": "We develop custom software solutions tailored to your business needs",
     "items": {
-      "web": {
-        "title": "Web Applications",
-        "description": "Modern and responsive web applications. High-performance solutions with React, Vue.js and Next.js."
-    },
-      "mobile": {
-      "title": "Mobile Applications",
-        "description": "Native and cross-platform mobile apps for iOS and Android. Development with React Native and Flutter."
+      "personal": {
+        "title": "Personal Web Applications",
+        "description": "Portfolio sites, blogs and personal brand websites with modern design and easy management."
       },
       "enterprise": {
-        "title": "Enterprise Software",
-        "description": "ERP, CRM and custom business process solutions. Scalable and secure infrastructure."
-    },
-      "api": {
-      "title": "API Development",
-        "description": "RESTful and GraphQL API design. Third-party integrations and microservice architecture."
+        "title": "Enterprise Web Applications",
+        "description": "Corporate websites, e-commerce platforms and custom business solutions with scalable infrastructure."
       },
-      "cloud": {
-        "title": "Cloud Solutions",
-        "description": "Infrastructure setup, management and optimization on AWS, Azure and Google Cloud."
+      "mobile": {
+        "title": "Mobile Applications",
+        "description": "Native iOS and Android applications with seamless user experience and intuitive interfaces."
       },
-      "consulting": {
-        "title": "Technology Consulting",
-        "description": "Digital transformation strategy, technology selection and project management consulting."
+      "seo": {
+        "title": "SEO Consulting",
+        "description": "Search engine optimization consulting to increase visibility, drive organic traffic and improve rankings."
       }
     }
   },
@@ -158,7 +158,7 @@
     "description": "Leading digital transformation of businesses with innovative software solutions.",
     "products": {
       "title": "Projects",
-      "items": ["Doctor Portfolio Website", "banausta", "Custom Software"]
+      "items": ["Banausta Web", "Banausta Community", "Banausta Mobile"]
     },
     "company": {
       "title": "Company",
