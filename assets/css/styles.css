@@ -316,7 +316,6 @@ ul {
    HERO SECTION
    ============================================ */
 .hero {
-  min-height: 85vh;
     display: flex;
     align-items: center;
     padding: 120px 0 80px;
@@ -1471,7 +1470,7 @@ ul {
   /* Hero Mobile */
   .hero {
     min-height: auto;
-    padding: 100px 0 60px;
+    padding: 50px 0 60px;
   }
 
   .hero-container {
