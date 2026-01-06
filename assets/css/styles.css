@@ -793,7 +793,6 @@ ul {
   border-radius: var(--radius-md);
   object-fit: contain;
   transition: transform 0.3s ease;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .project-image-link:hover .project-screenshot {
