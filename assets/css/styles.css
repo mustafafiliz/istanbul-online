@@ -931,6 +931,51 @@ ul {
   height: 16px;
 }
 
+.store-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.store-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.store-button:hover {
+  background: var(--bg-secondary);
+  border-color: var(--accent-1);
+  color: var(--accent-1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.store-button svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.store-button.app-store {
+  color: var(--text-primary);
+}
+
+.store-button.google-play {
+  color: var(--text-primary);
+}
+
 /* ============================================
    SERVICES SECTION
    ============================================ */
@@ -1804,6 +1849,22 @@ ul {
 
   .project-title {
     font-size: 0.95rem;
+  }
+
+  .store-buttons {
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .store-button {
+    padding: 8px 12px;
+    font-size: 0.75rem;
+    gap: 6px;
+  }
+
+  .store-button svg {
+    width: 16px;
+    height: 16px;
   }
 
   .service-card {

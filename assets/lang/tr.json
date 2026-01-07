@@ -55,12 +55,12 @@
         "title": "Banausta Web",
         "category": "Web Uygulaması",
         "description": "Hizmet sağlayıcıları ve müşterileri buluşturan modern web platformu. Responsive tasarım ve kusursuz kullanıcı deneyimi."
-      },
+    },
       "community": {
         "title": "Banausta Community",
         "category": "Topluluk Platformu",
         "description": "Ustaların ve müşterilerin etkileşimde bulunduğu, değerlendirme paylaştığı ve güven inşa ettiği canlı bir topluluk merkezi."
-      },
+    },
       "mobile": {
         "title": "Banausta Mobil",
         "category": "Mobil Uygulama",

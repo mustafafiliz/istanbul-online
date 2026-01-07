@@ -55,12 +55,12 @@
         "title": "Banausta Web",
         "category": "Web Application",
         "description": "Modern web platform connecting service providers and customers. Responsive design with seamless user experience."
-      },
+    },
       "community": {
         "title": "Banausta Community",
         "category": "Community Platform",
         "description": "A vibrant community hub where craftsmen and customers interact, share reviews, and build trust."
-      },
+    },
       "mobile": {
         "title": "Banausta Mobile",
         "category": "Mobile Application",
