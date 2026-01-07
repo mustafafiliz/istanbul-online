@@ -254,7 +254,7 @@
           <!-- Banausta Community -->
           <div class="project-card">
             <div class="project-image">
-              <a href="https://banausta.com" target="_blank" rel="noopener noreferrer" class="project-image-link">
+              <a href="#" class="project-image-link community-popup-trigger">
                 <img src="assets/img/banausta-community.png" alt="Banausta Community" class="project-screenshot"/>
               </a>
             </div>
@@ -264,7 +264,7 @@
               <p class="project-description" data-i18n="projects.items.community.description">
                 A vibrant community hub where craftsmen and customers interact, share reviews, and build trust.
               </p>
-              <a href="https://banausta.com" target="_blank" rel="noopener noreferrer" class="project-link">
+              <a href="#" class="project-link community-popup-trigger">
                 <span data-i18n="projects.viewProject">View Project</span>
               </a>
             </div>
@@ -601,6 +601,18 @@
         </div>
       </div>
     </footer>
+
+    <!-- Community Popup -->
+    <div class="community-popup-overlay" id="communityPopup">
+      <div class="community-popup-content">
+        <button class="community-popup-close" id="communityPopupClose" aria-label="Close">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+        </button>
+        <img src="assets/img/banausta-comunity-popup.png" alt="Banausta Community" class="community-popup-image" />
+      </div>
+    </div>
 
     <script src="assets/js/main.js"></script>
   </body>

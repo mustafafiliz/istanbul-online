@@ -235,6 +235,62 @@ class ContactForm {
 }
 
 // ============================================
+// COMMUNITY POPUP
+// ============================================
+
+class CommunityPopup {
+  constructor() {
+    this.popup = document.getElementById("communityPopup");
+    this.closeBtn = document.getElementById("communityPopupClose");
+    this.triggers = document.querySelectorAll(".community-popup-trigger");
+    this.init();
+  }
+
+  init() {
+    if (!this.popup) return;
+
+    // Open popup on trigger click
+    this.triggers.forEach((trigger) => {
+      trigger.addEventListener("click", (e) => {
+        e.preventDefault();
+        this.open();
+      });
+    });
+
+    // Close popup on close button click
+    if (this.closeBtn) {
+      this.closeBtn.addEventListener("click", () => this.close());
+    }
+
+    // Close popup on overlay click
+    this.popup.addEventListener("click", (e) => {
+      if (e.target === this.popup) {
+        this.close();
+      }
+    });
+
+    // Close popup on Escape key
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && this.popup.classList.contains("active")) {
+        this.close();
+      }
+    });
+  }
+
+  open() {
+    if (!this.popup) return;
+    this.popup.classList.add("active");
+    document.body.classList.add("popup-open");
+  }
+
+  close() {
+    if (!this.popup) return;
+    this.popup.classList.remove("active");
+    document.body.classList.remove("popup-open");
+  }
+}
+
+// ============================================
 // INITIALIZE
 // ============================================
 
@@ -247,6 +303,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initialize contact form
   new ContactForm();
+
+  // Initialize community popup
+  new CommunityPopup();
 
   console.log("Istanbul Online - Software Development Company");
 });
