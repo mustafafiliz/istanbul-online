@@ -51,7 +51,7 @@ class LanguageManager {
     document.querySelectorAll("[data-i18n]").forEach((element) => {
       const key = element.getAttribute("data-i18n");
       const value = this.getNestedValue(lang, key);
-      if (value) {
+      if (value !== null && value !== undefined) {
         element.textContent = value;
       }
     });
@@ -60,7 +60,7 @@ class LanguageManager {
     document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
       const key = element.getAttribute("data-i18n-placeholder");
       const value = this.getNestedValue(lang, key);
-      if (value) {
+      if (value !== null && value !== undefined) {
         element.placeholder = value;
       }
     });
